@@ -1,0 +1,10 @@
+1.Para solucionar el problema de "
+    Asegúrese de que todos los procesos finalicen y vuelva a intentarlo. Si aún falla, es posible que un proceso de git se haya bloqueado anteriormente en este repositorio: elimine el archivo manualmente para continuar.
+"
+solucion: rm -f .git/index.lock
+
+2. Para solucionar el problema de "
+    fallo con el .gitignore
+    fallo: al añadir archivos.
+"
+
